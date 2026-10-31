@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "anarchiadeals",
+  "version": "${version}",
+  "name": "Anarchia Deals",
+  "description": "Skanuje /ah (sortowanie: najnowsze), liczy srednie ceny i wylapuje okazje. Menu pod klawiszem Y.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.anarchiadeals.AnarchiaDeals"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
